@@ -1,0 +1,524 @@
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}
+
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #0396A6;
+    font-size: 1.5em;
+}
+
+a:hover {
+	color: #333333;
+    border:none;
+}
+
+a:active{color:#8A5620}
+
+
+html {
+	background: #F8F7F5;
+}
+
+body {
+	font: 100% Cantarell, Arial, Helvetica, sans-serif;
+	line-height: 2em;
+	position: relative;
+	background: #F8F7F5;
+	color: #0396A6;
+	font-weight:normal;
+	font-style:normal;
+}
+
+nav ul {
+	list-style: none;
+    text-align: left;
+}
+
+/*Basic layout styles -----------------------------------------------------------------------------------------------------------*/
+
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	
+}
+/*
+.sticky {
+  position:inherit;
+  top: 0;
+  width: 100%  
+}
+*/
+#pageFooter {
+	clear:both;
+	overflow:hidden;
+	height: auto;
+    background: #E1F9F9;
+    text-align: center;
+    padding:10px;
+    font-size: 1em;
+}
+footer a{
+    color: #333333;
+    font-size: 1.2em;
+}
+
+div.contact {
+    align-content: center;
+    background-color: #EBEBEB;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-size: 1em;
+    
+}
+h2 {
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+div.gfm {
+    align-content: center;
+    background-color: #EBEBEB;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    color: #333333;
+}
+
+
+/* Content region styles -----------------------------------------------------------------------------------------------------------*/
+
+/*header styles*/
+header {
+    text-align: center;
+}
+
+header h1 {
+	font-size: 4em;
+	font-weight: bold;
+	line-height: 65px;
+	background: url;
+	color: #fff;
+}
+
+header a:hover {
+	color: #333333;
+	border: none;
+}
+
+/*nav styles*/
+#mainNav {
+	margin-bottom: 0em;
+    padding-top: 0px;
+    background-color:#E1F9F9;
+    outline: 5px solid #fff;
+    height:;
+}
+
+#
+
+
+#mainNav a {
+	text-transform: uppercase;
+	color: black;
+	border: none;
+	font-size: 1.2em;
+}
+
+#mainNav a:hover {
+	color: #333333;
+}
+li{
+    color:black;
+    text-align: left;
+    padding-left:0px;
+    padding-bottom: 5px;
+}
+.currentLink {
+   color: #333333;
+}
+.column a{
+    color:black;
+}
+.column a:hover{
+    color:#fff;
+}
+
+h1 {
+    padding-top: 10%;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    background-color: #EBEBEB;
+}
+
+form {
+    text-align: center;
+    background: #EBEBEB;
+    padding: 1.5em;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+
+.form-error {
+    color: var(--error);
+    font-size: 14px;
+    margin-top: 3px;
+    display: none;
+}
+.containerContent{
+    
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media only screen and (max-width:480px) {
+ 
+body {
+	width: 95%;
+	font-size: 85%;
+    }
+
+header {
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    width: 100%;
+    height: auto;
+    background-size: 100% auto !important;
+    align-content: center;
+    background-color: #E1F9F9;
+}
+
+header h1 {
+	font-size: 3em;
+	line-height: 2em;
+	text-decoration:none;
+    visibility: hidden;
+    text-align: center;
+    width: 90%;
+}
+
+/*nav styles*/
+#mainNav {
+	margin-bottom: 1em;
+    
+}
+
+#mainNav li {
+	text-align: center;
+    display:inline;
+    margin: 0.5%;
+}
+
+#mainNav a {
+	text-transform: uppercase;
+	color: #fff;
+	border: none;
+	font-size: 1.1em;
+    
+}
+
+#mainNav a:hover {
+	color: #333333;
+}
+.button {
+  background-color: #E1F9F9;
+  border: none;
+  color: white;
+  padding: 8px 9px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px; 
+}
+nav.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5em
+    /*
+    @media (min-width: 600px){
+        justify-content: space-between;
+    }
+    */
+}
+    
+li{
+    color:black;
+    text-align: left;
+    padding-left:18%;
+}
+#photo {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top:0px;
+    } 
+.map{
+    padding-top: 1em;
+    height:25em;
+    }
+}
+
+
+/*tablet styles*/
+@media only screen and (min-width:481px) and (max-width:768px) {
+	body {
+	width: 95%;
+	font-size: 85%;
+    max-height: 450px;
+    
+    }
+
+header {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #E1F9F9;
+	padding-top: 0px;
+    padding-bottom: 0px;
+    align-content: center;
+    overflow:auto;
+    width: 100%;
+    background-size: 100% auto !important;
+    background-color: #E1F9F9;
+}
+
+header h1 {
+	font-size: 3em;
+	line-height: 180%;
+	text-decoration:none;
+    visibility: hidden;
+    text-align: center;
+}
+
+/*nav styles*/
+#mainNav {
+	margin-bottom: em;
+}
+
+#mainNav li {
+	text-align: center;
+    display:inline;
+    margin: 2%;
+}
+
+#mainNav a {
+	text-transform: uppercase;
+	color: #0396A6;
+	border: none;
+	font-size: 1.4em;
+    
+}
+
+#mainNav a:hover {
+	color: #333333;
+}
+.button {
+  background-color: #E1F9F9;
+  border: none;
+  color: #0396A6;
+  padding: 8px 9px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  
+}
+    
+nav.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+    /*
+    @media (min-width: 600px){
+        justify-content: space-between;
+    }
+    */
+}
+   
+*{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/*Clear floats after the columns*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+li{
+    color:#333333;
+    text-align: left;
+    padding-left:18%;
+}
+
+#photo {
+    
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding:20px;
+    }  
+}
+
+
+/*desktop styles*/
+@media only screen and (min-width:769px) {
+	body {
+	width: 95%;
+	font-size: 80%;
+    
+    }
+
+header {
+    background-repeat: no-repeat;
+	padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    height: auto;
+    background-size: 100% auto !important;
+    align-content: center;
+    background-color: #E1F9F9;
+}
+
+header h1 {
+	font-size: 3em;
+	line-height: 90px;
+	text-decoration:none;
+    visibility: hidden;
+    text-align: center;
+}
+
+/*nav styles*/
+#mainNav {
+	margin-bottom: 2em;
+    padding-top: 1.4em;
+}
+
+#mainNav li {
+	text-align: center;
+    display:inline;
+    margin: 6%;
+}
+
+#mainNav a {
+	text-transform: uppercase;
+	color: #0396A6;
+	border: none;
+	font-size: 1.4em;
+    
+}
+
+#mainNav a:hover {
+	color: #333333;
+}
+.button {
+  background-color: #E1F9F9;
+  border: none;
+  color: #0396A6;
+  padding: 8px 9px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+}
+nav.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.76em;
+    
+    ul {
+        display: flex;
+        align-items: center;
+    }
+    
+    ul li {
+        margin-right: 20px;
+        
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+}
+
+
+}
+*{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/*Clear floats after the columns*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+}
+*/
+/* create two equal columns that sits next to each other */
+/*
+.column {
+    flex: 50%;
+    padding: 0 4px;
+    
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    
+    
+}
+*/
